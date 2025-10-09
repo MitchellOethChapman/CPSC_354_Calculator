@@ -7,7 +7,7 @@
     | exp2
 
 ?exp2: NUMBER                 -> num
-    | "(" exp ")"                                  
+    | "(" exp ")"
 
 %import common.NUMBER
 %import common.WS
